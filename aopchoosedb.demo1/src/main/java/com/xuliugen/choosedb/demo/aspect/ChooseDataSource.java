@@ -9,15 +9,18 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 获取数据源
+ * 获取数据源，用于动态切换数据源
  */
 public class ChooseDataSource extends AbstractRoutingDataSource {
 
     public static Map<String, List<String>> METHOD_TYPE_MAP = new HashMap<String, List<String>>();
 
-    // 获取数据源名称
+    /**
+     * 实现父类中的抽象方法，获取数据源名称
+     * @return
+     */
     protected Object determineCurrentLookupKey() {
-        return HandleDataSource.getDataSource();
+        return DataSourceHandler.getDataSource();
     }
 
     // 设置方法名前缀对应的数据源

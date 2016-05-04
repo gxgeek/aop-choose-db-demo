@@ -36,7 +36,7 @@ public class DataSourceAspect {
             for (String key : ChooseDataSource.METHOD_TYPE_MAP.keySet()) {
                 for (String type : ChooseDataSource.METHOD_TYPE_MAP.get(key)) {
                     if (method.startsWith(type)) {
-                        HandleDataSource.putDataSource(key);
+                        DataSourceHandler.putDataSource(key);
                     }
                 }
             }

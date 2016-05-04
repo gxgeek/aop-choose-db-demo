@@ -1,0 +1,402 @@
+body {
+    font-family: 微软雅黑, "Microsoft YaHei", 宋体, sans-serif;
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.col-md-2, .col-md-3, .col-md-9, .col-md-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar {
+    border: medium none;
+    min-height: 35px;
+    margin-bottom: 0;
+}
+
+#validate-modal {
+	text-align: center;
+}
+
+#validate-modal .modal-body {
+    color: red;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/****************************** header *******************************/
+.header {
+    color: #5e5e5e;
+}
+
+.header-nav {
+    background-color: #f2f2f2;
+}
+
+.header-nav ul {
+    margin-bottom: 0;
+}
+
+.header-nav ul > li {
+    display: inline;
+}
+
+.header-nav ul > li > a {
+    color: #5e5e5e;
+    padding: 0 6px;
+    display: inline;
+    line-height: 35px;
+}
+
+.input-required {
+    color: red;
+    padding: 3px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/****************************** content *******************************/
+.title-large {
+    height: 48px;
+    line-height: 48px;
+    background-color: #004c9c;
+    color: #fff;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.title-tab {
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.btn-more {
+    text-align: right;
+    color: #42467c;
+    margin-top: 10px;
+}
+
+.btn-more > a {
+    color: #42467c;
+}
+
+.industry {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.industry > a {
+    background-color: #d1494d;
+    color: #fff;
+    border: medium none;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+}
+
+.industry > a > i {
+    float: right;
+    margin-top: 15px;
+}
+
+#star-tab {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#star-tab .title-tab {
+    background-color: #24b455;
+}
+
+#star-tab .nav-tabs {
+    margin-top: 5px;
+}
+
+#star-tab .nav > li {
+    width: 33.33%;
+    text-align: center;
+}
+
+#star-tab .nav > li > a {
+    padding: 10px 0;
+}
+
+#star-list {
+    color: #42467c;
+    margin-top: 10px;
+}
+
+#star-list > li {
+    padding: 3px;
+}
+
+#navbar-main {
+    background-color: #004c9c;
+    margin-bottom: 10px;
+}
+
+#navbar-main > ul > li > a {
+    font-size: 18px;
+    padding: 0 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 48px;
+    color: #fff;
+}
+
+#navbar-main > ul > li > a:focus, #navbar-main > ul > li > a:hover {
+    background-color: #d1494d;
+}
+
+#banner-main {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+#banner-main > img {
+    width: 100%;
+    height: auto;
+}
+
+.demand {
+    margin-bottom: 10px;
+}
+
+.demand-list {
+    color: #42467c;
+    margin-top: 10px;
+}
+
+.demand-list > li {
+    padding: 3px;
+}
+
+#enterprise .title-tab {
+    background-color: #e9bc1b;
+}
+
+#teacher .title-tab {
+    background-color: #d1494d;
+}
+
+#student .title-tab {
+    background-color: #004c9c;
+}
+
+#search-box {
+    margin-bottom: 10px;
+}
+
+#search-box > input {
+    border: 2px solid #d1494d;
+}
+
+#search-box button {
+    border: 1px solid #d1494d;
+    background-color: #d1494d;
+    color: #fff;
+}
+
+.theme-activity {
+    margin-bottom: 10px;
+}
+
+.theme-activity > ul {
+    padding-left: 15px;
+}
+
+.theme-activity > ul > li {
+    padding: 3px 0;
+    list-style: square;
+}
+
+.latest-news {
+    margin-bottom: 10px;
+}
+
+.latest-news .title-tab {
+    background-color: #24b455;
+}
+
+.latest-news > ul > li {
+    padding: 3px 0;
+    color: #42467c;
+}
+
+.footer {
+    border-top: 1px solid #dbdbdb;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+#quick-entrance h4 {
+    color: #42467c;
+}
+
+#quick-entrance a {
+    min-height: 30px;
+    color: #9e9e9e;
+    padding: 5px 0;
+}
+
+#wx-qr {
+    height: 90px;
+}
+
+#copy-right {
+    background-color: #004c9c;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-right > p {
+    margin: 2px 0;
+}
+
+
+/****************************** login *******************************/
+#modal-login {
+    padding-bottom: 35px;
+}
+
+
+/****************************** register *******************************/
+.register-top {
+    text-align: center;
+    margin: 15px 0;
+    border-bottom: 2px solid #fa9f08;
+}
+
+.register-top a {
+    padding: 0 20px;
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fa9f08;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fa9f08;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.register-content {
+    margin: 0 auto;
+    width: 45%;
+
+}
+
+.register-item {
+    margin-top: 15px;
+}
+
+/***************************** 手风琴菜单 start*******************************/
+.accordion {
+ 	width: 100%;
+ 	max-width: 360px;
+ 	background: #FFF;
+ 	-webkit-border-radius: 4px;
+ 	-moz-border-radius: 4px;
+ 	border-radius: 4px;
+ 	border: 1px solid #ccc;
+ }
+
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 42px;
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+	border-bottom: 0;
+}
+
+.accordion li i {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	font-size: 18px;
+	color: #595959;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
+}
+
+.accordion li.open .link {
+	color: #b63b4d;
+}
+
+.accordion li.open i {
+	color: #b63b4d;
+}
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+ .submenu {
+ 	display: none;
+ 	background: #444359;
+ 	font-size: 14px;
+ }
+
+ .submenu li {
+ 	border-bottom: 1px solid #4b4a5e;
+ }
+
+ .submenu a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #d9d9d9;
+ 	padding: 12px;
+ 	padding-left: 42px;
+ 	-webkit-transition: all 0.25s ease;
+ 	-o-transition: all 0.25s ease;
+ 	transition: all 0.25s ease;
+ }
+
+ .submenu a:hover, .submenu a:focus {
+ 	background: #b63b4d;
+ 	color: #FFF;
+ 	outline: none;
+ }
+/***************************** 手风琴菜单 end *******************************/

@@ -1,7 +1,6 @@
 package com.xuliugen.choosedb.demo.mybatis.dao;
 
 import com.xuliugen.choosedb.demo.mybatis.model.User;
-import org.springframework.stereotype.Component;
 
 public interface UserMapper {
 

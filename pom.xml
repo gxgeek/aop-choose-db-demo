@@ -12,7 +12,7 @@
     <description>https://git.oschina.net/xuliugen/aop-choose-data-demo.git</description>
 
     <modules>
-        <module>aopchoosedb.demo1</module>
+        <module>aopchoosedb.aspectj</module>
         <module>aopchoosedb.demo2</module>
     </modules>
 

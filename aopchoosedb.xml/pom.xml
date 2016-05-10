@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
 
-    <name>aopchoosedb.demo2</name>
-    <artifactId>aopchoosedb.demo2</artifactId>
+    <name>aopchoosedb.xml</name>
+    <artifactId>aopchoosedb.xml</artifactId>
 
     <dependencies>
         <!--dependency>

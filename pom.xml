@@ -13,7 +13,7 @@
 
     <modules>
         <module>aopchoosedb.aspectj</module>
-        <module>aopchoosedb.demo2</module>
+        <module>aopchoosedb.xml</module>
     </modules>
 
     <!--版本属性信息-->

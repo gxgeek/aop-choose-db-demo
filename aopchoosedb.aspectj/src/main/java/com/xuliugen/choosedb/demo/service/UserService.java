@@ -16,7 +16,7 @@ public class UserService implements IUserService {
     private UserMapper userMapper;
 
     public User selectUserById(int id) {
-        return userMapper.selectUserById(id);
+        return userMapper.selectById(Long.valueOf(id));
     }
 
     public boolean addUser(User user) {

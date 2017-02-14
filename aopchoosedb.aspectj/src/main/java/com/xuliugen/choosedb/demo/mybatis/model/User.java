@@ -2,24 +2,41 @@ package com.xuliugen.choosedb.demo.mybatis.model;
 
 import java.io.Serializable;
 
+import com.baomidou.mybatisplus.annotations.IdType;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+
+/**
+ *
+ *
+ *
+ */
 public class User implements Serializable {
 
-    private int id;
+    @TableField(exist = false)
+    private static final long serialVersionUID = 1L;
 
+    /**  */
+    @TableId(type = IdType.AUTO)
+    private Integer id;
+
+    /**  */
     private String name;
 
+    /**  */
     private String password;
 
-    public int getId() {
-        return id;
+    public Integer getId() {
+        return this.id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -27,7 +44,7 @@ public class User implements Serializable {
     }
 
     public String getPassword() {
-        return password;
+        return this.password;
     }
 
     public void setPassword(String password) {

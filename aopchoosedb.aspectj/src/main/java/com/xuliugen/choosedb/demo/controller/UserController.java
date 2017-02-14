@@ -23,6 +23,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping(value = "/select.do", method = RequestMethod.GET)
     public String select() {
+
         User user = userService.selectUserById(123);
         return user.toString();
     }
@@ -31,7 +32,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping(value = "/add.do", method = RequestMethod.GET)
     public String add() {
-        boolean isOk = userService.addUser(new User("333", "444"));
-        return isOk == true ? "shibai" : "chenggong";
+        boolean isOk = userService.addUser(new User("ggggg", "444"));
+        return isOk == true ? "success" : "chenggong";
     }
 }
